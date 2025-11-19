@@ -1,0 +1,32 @@
+{
+  "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+  "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_500\\noise_texture_steg_payload500.png",
+  "payload": 0.05,
+  "chi2": {
+    "channels": {
+      "R": {
+        "chi2_total": 209.25587703294153,
+        "df": 103,
+        "p_value": 3.135763759765098e-09
+      },
+      "G": {
+        "chi2_total": 262.56192180906896,
+        "df": 108,
+        "p_value": 6.8833827526759706e-15
+      },
+      "B": {
+        "chi2_total": 189.44281028881386,
+        "df": 107,
+        "p_value": 1.578306463634327e-06
+      }
+    },
+    "overall": {
+      "chi2_total": 220.42020304360813,
+      "df": 106,
+      "p_value": 4.96838348240658e-10
+    }
+  },
+  "auc": 0.49466562271118164,
+  "cover_block_count": 1024,
+  "stego_block_count": 1024
+}

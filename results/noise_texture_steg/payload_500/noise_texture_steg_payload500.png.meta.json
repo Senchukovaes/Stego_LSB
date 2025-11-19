@@ -1,0 +1,12 @@
+{
+  "cover_path": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+  "stego_path": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_500\\noise_texture_steg_payload500.png",
+  "message_file": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_500\\tmp_message.bin",
+  "payload": 0.05,
+  "capacity_bits": 786432,
+  "allowed_bits": 39321,
+  "allowed_bytes": 4914,
+  "message_bytes_used": 4914,
+  "bits_written": 39320,
+  "truncated": false
+}

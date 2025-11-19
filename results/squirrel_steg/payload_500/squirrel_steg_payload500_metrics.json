@@ -1,0 +1,32 @@
+{
+  "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\squirrel.png",
+  "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\squirrel_steg\\payload_500\\squirrel_steg_payload500.png",
+  "payload": 0.05,
+  "chi2": {
+    "channels": {
+      "R": {
+        "chi2_total": 403.2106540757239,
+        "df": 127,
+        "p_value": 0.0
+      },
+      "G": {
+        "chi2_total": 192.45552990403104,
+        "df": 127,
+        "p_value": 0.0001597231946602884
+      },
+      "B": {
+        "chi2_total": 3055.3441218938165,
+        "df": 125,
+        "p_value": 0.0
+      }
+    },
+    "overall": {
+      "chi2_total": 1217.0034352911905,
+      "df": 126,
+      "p_value": 0.0
+    }
+  },
+  "auc": 0.49806737899780273,
+  "cover_block_count": 1024,
+  "stego_block_count": 1024
+}

@@ -1,0 +1,32 @@
+{
+  "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\checkerboard.png",
+  "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\checkerboard_steg\\payload_5000\\checkerboard_steg_payload5000.png",
+  "payload": 0.5,
+  "chi2": {
+    "channels": {
+      "R": {
+        "chi2_total": 59181.17642211914,
+        "df": 2,
+        "p_value": 0.0
+      },
+      "G": {
+        "chi2_total": 59607.246490478516,
+        "df": 2,
+        "p_value": 0.0
+      },
+      "B": {
+        "chi2_total": 60375.602630615234,
+        "df": 2,
+        "p_value": 0.0
+      }
+    },
+    "overall": {
+      "chi2_total": 59721.34184773763,
+      "df": 2,
+      "p_value": 0.0
+    }
+  },
+  "auc": 0.0,
+  "cover_block_count": 1024,
+  "stego_block_count": 1024
+}

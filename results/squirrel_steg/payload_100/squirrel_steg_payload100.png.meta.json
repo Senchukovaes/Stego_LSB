@@ -1,0 +1,12 @@
+{
+  "cover_path": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\squirrel.png",
+  "stego_path": "C:\\Study\\Крипта\\Stego_LSB\\results\\squirrel_steg\\payload_100\\squirrel_steg_payload100.png",
+  "message_file": "C:\\Study\\Крипта\\Stego_LSB\\results\\squirrel_steg\\payload_100\\tmp_message.bin",
+  "payload": 0.01,
+  "capacity_bits": 786432,
+  "allowed_bits": 7864,
+  "allowed_bytes": 982,
+  "message_bytes_used": 982,
+  "bits_written": 7864,
+  "truncated": false
+}

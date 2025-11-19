@@ -1,0 +1,12 @@
+{
+  "cover_path": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\checkerboard.png",
+  "stego_path": "C:\\Study\\Крипта\\Stego_LSB\\results\\checkerboard_steg\\payload_50\\checkerboard_steg_payload50.png",
+  "message_file": "C:\\Study\\Крипта\\Stego_LSB\\results\\checkerboard_steg\\payload_50\\tmp_message.bin",
+  "payload": 0.005,
+  "capacity_bits": 786432,
+  "allowed_bits": 3932,
+  "allowed_bytes": 490,
+  "message_bytes_used": 490,
+  "bits_written": 3928,
+  "truncated": false
+}

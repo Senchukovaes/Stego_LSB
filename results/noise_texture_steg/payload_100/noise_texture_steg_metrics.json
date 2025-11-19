@@ -1,0 +1,14 @@
+{
+  "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+  "stego": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\steg\\noise_texture_steg.png",
+  "payload": 0.01,
+  "psnr": 71.14791242275247,
+  "ssim": 0.9999737806993965,
+  "chi2": {
+    "chi2_total": 262.64289208011974,
+    "df": 87
+  },
+  "auc": 0.50244140625,
+  "cover_block_count": 64,
+  "stego_block_count": 64
+}

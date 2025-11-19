@@ -1,0 +1,230 @@
+{
+  "actual": {
+    "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+    "stego": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\steg\\noise_texture_steg.png",
+    "payload": 0.005,
+    "psnr": 74.16928850072115,
+    "ssim": 0.9999920159006587,
+    "chi2": {
+      "channels": {
+        "R": {
+          "chi2_total": 186.49209096566852,
+          "df": 103,
+          "p_value": 9.166269283600315e-07
+        },
+        "G": {
+          "chi2_total": 250.3205731920962,
+          "df": 108,
+          "p_value": 2.59015031645049e-13
+        },
+        "B": {
+          "chi2_total": 207.78121643010147,
+          "df": 107,
+          "p_value": 1.9102904591505876e-08
+        }
+      },
+      "overall": {
+        "chi2_total": 214.8646268626221,
+        "df": 106,
+        "p_value": 2.165896462180683e-09
+      }
+    },
+    "auc": 0.49410009384155273,
+    "cover_block_count": 1024,
+    "stego_block_count": 1024
+  },
+  "experiments": [
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_10\\noise_texture_steg_payload10.png",
+      "payload": 0.001,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 192.4593077129489,
+            "df": 103,
+            "p_value": 2.2021606516098302e-07
+          },
+          "G": {
+            "chi2_total": 248.92455488364283,
+            "df": 108,
+            "p_value": 3.885780586188048e-13
+          },
+          "B": {
+            "chi2_total": 206.18864076785087,
+            "df": 107,
+            "p_value": 2.8490092396360467e-08
+          }
+        },
+        "overall": {
+          "chi2_total": 215.85750112148085,
+          "df": 106,
+          "p_value": 1.66877700547019e-09
+        }
+      },
+      "auc": 0.4990835189819336,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    },
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_50\\noise_texture_steg_payload50.png",
+      "payload": 0.005,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 186.49209096566852,
+            "df": 103,
+            "p_value": 9.166269283600315e-07
+          },
+          "G": {
+            "chi2_total": 250.3205731920962,
+            "df": 108,
+            "p_value": 2.59015031645049e-13
+          },
+          "B": {
+            "chi2_total": 207.78121643010147,
+            "df": 107,
+            "p_value": 1.9102904591505876e-08
+          }
+        },
+        "overall": {
+          "chi2_total": 214.8646268626221,
+          "df": 106,
+          "p_value": 2.165896462180683e-09
+        }
+      },
+      "auc": 0.49410009384155273,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    },
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_100\\noise_texture_steg_payload100.png",
+      "payload": 0.01,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 191.25383481516383,
+            "df": 103,
+            "p_value": 2.948525950063896e-07
+          },
+          "G": {
+            "chi2_total": 254.07444809116265,
+            "df": 108,
+            "p_value": 8.637535131583718e-14
+          },
+          "B": {
+            "chi2_total": 206.49220299639032,
+            "df": 107,
+            "p_value": 2.640606899806386e-08
+          }
+        },
+        "overall": {
+          "chi2_total": 217.27349530090558,
+          "df": 106,
+          "p_value": 1.1484549977680558e-09
+        }
+      },
+      "auc": 0.49443483352661133,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    },
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_500\\noise_texture_steg_payload500.png",
+      "payload": 0.05,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 209.25587703294153,
+            "df": 103,
+            "p_value": 3.135763759765098e-09
+          },
+          "G": {
+            "chi2_total": 262.56192180906896,
+            "df": 108,
+            "p_value": 6.8833827526759706e-15
+          },
+          "B": {
+            "chi2_total": 189.44281028881386,
+            "df": 107,
+            "p_value": 1.578306463634327e-06
+          }
+        },
+        "overall": {
+          "chi2_total": 220.42020304360813,
+          "df": 106,
+          "p_value": 4.96838348240658e-10
+        }
+      },
+      "auc": 0.49466562271118164,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    },
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_5000\\noise_texture_steg_payload5000.png",
+      "payload": 0.5,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 818.678061741931,
+            "df": 103,
+            "p_value": 0.0
+          },
+          "G": {
+            "chi2_total": 833.1080655481022,
+            "df": 108,
+            "p_value": 0.0
+          },
+          "B": {
+            "chi2_total": 709.1798119654035,
+            "df": 107,
+            "p_value": 0.0
+          }
+        },
+        "overall": {
+          "chi2_total": 786.9886464184789,
+          "df": 106,
+          "p_value": 0.0
+        }
+      },
+      "auc": 0.5031719207763672,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    },
+    {
+      "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\noise_texture.png",
+      "stego": "C:\\Study\\Крипта\\Stego_LSB\\results\\noise_texture_steg\\payload_7000\\noise_texture_steg_payload7000.png",
+      "payload": 0.7,
+      "chi2": {
+        "channels": {
+          "R": {
+            "chi2_total": 1343.3963541600128,
+            "df": 103,
+            "p_value": 0.0
+          },
+          "G": {
+            "chi2_total": 1372.567463917639,
+            "df": 108,
+            "p_value": 0.0
+          },
+          "B": {
+            "chi2_total": 1201.0668719784906,
+            "df": 107,
+            "p_value": 0.0
+          }
+        },
+        "overall": {
+          "chi2_total": 1305.6768966853808,
+          "df": 106,
+          "p_value": 0.0
+        }
+      },
+      "auc": 0.5100512504577637,
+      "cover_block_count": 1024,
+      "stego_block_count": 1024
+    }
+  ]
+}
