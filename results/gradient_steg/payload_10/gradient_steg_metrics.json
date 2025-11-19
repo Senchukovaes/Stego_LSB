@@ -1,0 +1,34 @@
+{
+  "cover": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\original\\gradient.png",
+  "stego": "C:\\Study\\Крипта\\Stego_LSB\\imgs\\steg\\gradient_steg.png",
+  "payload": 0.001,
+  "psnr": 81.08858465465546,
+  "ssim": 0.9999982437744305,
+  "chi2": {
+    "channels": {
+      "R": {
+        "chi2_total": 273.19361979166666,
+        "df": 127,
+        "p_value": 1.0139666883901555e-12
+      },
+      "G": {
+        "chi2_total": 195.47291666666666,
+        "df": 127,
+        "p_value": 9.1135635301276e-05
+      },
+      "B": {
+        "chi2_total": 53693.39567018582,
+        "df": 127,
+        "p_value": 0.0
+      }
+    },
+    "overall": {
+      "chi2_total": 18054.02073554805,
+      "df": 127,
+      "p_value": 0.0
+    }
+  },
+  "auc": 0.49013328552246094,
+  "cover_block_count": 1024,
+  "stego_block_count": 1024
+}
